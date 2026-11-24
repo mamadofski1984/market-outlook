@@ -1,11 +1,15 @@
-import Link from "next/link";
+import { AppLink as Link } from "../../../../components/AppLink";
+import { connection } from "next/server";
 import { notFound } from "next/navigation";
 import { SeriesPanel } from "../../../../components/SeriesPanel";
 import { getMarketRows, getTickers, groupSeries } from "../../../../lib/market/service";
 
-export const dynamic = "force-dynamic";
+export async function generateStaticParams() {
+  return process.env.NEXT_PUBLIC_PAGES_DEMO === "1" ? (await getTickers()).map(({ id }) => ({ ticker: id })) : [];
+}
 
 export default async function TickerPage({ params }: { params: Promise<{ ticker: string }> }) {
+  if (process.env.NEXT_PUBLIC_PAGES_DEMO !== "1") await connection();
   const { ticker } = await params;
   const entry = (await getTickers()).find((item) => item.id === ticker);
   if (!entry) notFound();

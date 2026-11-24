@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { AppLink as Link, demoHref } from "./AppLink";
 import { useRouter } from "next/navigation";
 import { useEffect, useId, useRef, useState } from "react";
 import { navigation } from "../lib/market/navigation";
@@ -49,7 +49,9 @@ export function Topbar() {
     <form className="quick-search" role="search" onSubmit={(event) => {
       event.preventDefault();
       if (results[0]) {
-        router.push(results[0][0]);
+        const href = results[0][0];
+        if (process.env.NEXT_PUBLIC_PAGES_DEMO === "1") window.location.assign(demoHref(href));
+        else router.push(href);
         closeSearch();
         input.current?.blur();
       }

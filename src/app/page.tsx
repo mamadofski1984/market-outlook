@@ -1,11 +1,10 @@
+import { connection } from "next/server";
 import { MarketChart } from "../components/MarketChart";
 import { StatusCard, formatNumber } from "../components/StatusCard";
 import { Icon } from "../components/Icon";
 import { DailyMarketBrief } from "../features/daily-market-brief/DailyMarketBrief";
 import { EconomicNewsFeed } from "../features/economic-news/EconomicNewsFeed";
 import { getOverview } from "../lib/market/service";
-
-export const dynamic = "force-dynamic";
 
 type ComparisonGroup = Pick<Awaited<ReturnType<typeof getOverview>>, "cards" | "comparison">;
 
@@ -26,6 +25,7 @@ function MarketComparison({ cards, comparison, title }: ComparisonGroup & { titl
 }
 
 export default async function Home() {
+  if (process.env.NEXT_PUBLIC_PAGES_DEMO !== "1") await connection();
   const { global, macroCards, ...domestic } = await getOverview();
   const cards = [...domestic.cards, ...global.cards, ...macroCards];
   const official = cards.filter(({ latest }) => latest?.status === "قطعی").length;

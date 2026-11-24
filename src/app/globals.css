@@ -1,8 +1,8 @@
-@font-face { font-family: Vazirmatn; src: url("/fonts/Vazirmatn-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
-@font-face { font-family: Vazirmatn; src: url("/fonts/Vazirmatn-Medium.woff2") format("woff2"); font-weight: 500; font-display: swap; }
-@font-face { font-family: Vazirmatn; src: url("/fonts/Vazirmatn-SemiBold.woff2") format("woff2"); font-weight: 600; font-display: swap; }
-@font-face { font-family: Vazirmatn; src: url("/fonts/Vazirmatn-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
-@font-face { font-family: Vazirmatn; src: url("/fonts/Vazirmatn-ExtraBold.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: Vazirmatn; src: url("../../public/fonts/Vazirmatn-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: Vazirmatn; src: url("../../public/fonts/Vazirmatn-Medium.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: Vazirmatn; src: url("../../public/fonts/Vazirmatn-SemiBold.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: Vazirmatn; src: url("../../public/fonts/Vazirmatn-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: Vazirmatn; src: url("../../public/fonts/Vazirmatn-ExtraBold.woff2") format("woff2"); font-weight: 800; font-display: swap; }
 * { box-sizing: border-box; }
 :root {
   color-scheme: light;
@@ -126,8 +126,8 @@ main { max-width:1590px; margin:auto; padding:clamp(16px,3vw,34px); }
   background-repeat:no-repeat;
   box-shadow:var(--shadow);
 }
-.market-banner-domestic { --market-art:url("/images/tehran-skyline.svg"); }
-.market-banner-global { --market-art:url("/images/global-trade.svg"); }
+.market-banner-domestic { --market-art:url("../../public/images/tehran-skyline.svg"); }
+.market-banner-global { --market-art:url("../../public/images/global-trade.svg"); }
 .market-banner h2 { font-size:clamp(21px,3vw,29px); }
 .market-banner p { margin:2px 0 8px; color:#e7f1f6; }
 .market-note { font-size:12px; color:var(--muted); }

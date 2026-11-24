@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { AppLink as Link } from "./AppLink";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useId, useRef, useState } from "react";
 import type { SidebarCatalog } from "../lib/market/service";
