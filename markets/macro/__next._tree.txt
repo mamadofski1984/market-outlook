@@ -1,0 +1,6 @@
+:HL["/market-outlook/_next/static/chunks/2y244_sj5zlnq.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"market","t":"d","k":"macro","s":["equities"]},"h":96,"c":"$Q3"}]]
+1:[["children",{"s":"markets","h":96,"c":"$Q2"}]]
+0:{"b":"zI_DQVMXFWGX0mjWqbYb_","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

@@ -1,0 +1,40 @@
+1:"$Sreact.fragment"
+2:"$Sreact.suspense"
+3:"/market-outlook/_next/static/chunks/3gyat5cv0davf.js"
+4:I[22140,["$3"],"Sidebar"]
+5:I[62338,["$3"],"Topbar"]
+6:I[39756,["$3"],"default"]
+7:I[37457,["$3"],"default"]
+:HL["/market-outlook/_next/static/chunks/2y244_sj5zlnq.css","style"]
+b:X
+f:X
+f:C
+13:[["children",{"s":"__PAGE__","h":160,"d":{"r":"$L14","p":"$@15","v":null,"s":"$b"}}]]
+10:[["children",{"s":{"n":"market","t":"d","k":"scenarios","s":["equities"]},"h":96,"d":{"r":"$L11","p":"$@12","v":"$f","s":"$b"},"c":"$Q13"}]]
+c:[["children",{"s":"markets","h":96,"d":{"r":"$Ld","p":"$@e","v":"$f","s":"$b"},"c":"$Q10"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/market-outlook/_next/static/chunks/2y244_sj5zlnq.css","precedence":"next"}],["$","script","script-0",{"src":"/market-outlook/_next/static/chunks/3gyat5cv0davf.js","async":true}]],["$","html",null,{"lang":"fa","dir":"rtl","data-theme":"light","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try {\n  var theme = localStorage.getItem(\"market-outlook-theme\");\n  if (theme === \"light\" || theme === \"midtone\" || theme === \"dark\") {\n    document.documentElement.dataset.theme = theme;\n  }\n} catch {}"}}]}],["$","body",null,{"children":["$","div",null,{"className":"shell","children":[["$","$2",null,{"children":["$","$L4",null,{"catalog":{"/markets/macro":[{"indicator":"بازده اوراق ۱۰ ساله","entity":"آمریکا"},{"indicator":"شاخص قیمت مصرف‌کننده","entity":"کل کشور"},{"indicator":"نرخ بهره بین بانکی آمریکا","entity":"آمریکا"},{"indicator":"نرخ CPI آمریکا","entity":"آمریکا"}],"/markets/data-charts":[{"indicator":"ارزش معاملات","entity":"اخزا"},{"indicator":"ارزش معاملات","entity":"سهام"},{"indicator":"ارزش معاملات","entity":"صندوق‌های طلا"},{"indicator":"ارزش معاملات انرژی","entity":"نماد نمونه"},{"indicator":"ارزش معاملات کالا","entity":"نماد نمونه"},{"indicator":"انس جهانی طلا","entity":"جهان"},{"indicator":"انس جهانی مس","entity":"جهان"},{"indicator":"انس جهانی نقره","entity":"جهان"},{"indicator":"بازده اوراق ۱۰ ساله","entity":"آمریکا"},{"indicator":"خالص جریان پول","entity":"اخزا"},{"indicator":"خالص جریان پول","entity":"سهام"},{"indicator":"خالص جریان پول","entity":"صندوق‌های طلا"},{"indicator":"دلار بازار آزاد","entity":"USD"},{"indicator":"دلار رسمی","entity":"USD"},{"indicator":"شاخص قیمت مصرف‌کننده","entity":"کل کشور"},{"indicator":"شاخص کامودیتی‌ها","entity":"جهان"},{"indicator":"شاخص کل بورس","entity":"کل بازار"},{"indicator":"قیمت پایانی","entity":"نماد نمونه"},{"indicator":"قیمت طلای ۱۸ عیار","entity":"ایران"},{"indicator":"میانگین قیمت هر مترمربع","entity":"تهران"},{"indicator":"میانگین نرخ اخزا","entity":"اخزا"},{"indicator":"نرخ بهره بین بانکی آمریکا","entity":"آمریکا"},{"indicator":"نرخ CPI آمریکا","entity":"آمریکا"},{"indicator":"نفت برنت","entity":"جهان"}],"/markets/gold-fx":[{"indicator":"ارزش معاملات کالا","entity":"نماد نمونه"},{"indicator":"انس جهانی طلا","entity":"جهان"},{"indicator":"انس جهانی مس","entity":"جهان"},{"indicator":"انس جهانی نقره","entity":"جهان"},{"indicator":"دلار بازار آزاد","entity":"USD"},{"indicator":"دلار رسمی","entity":"USD"},{"indicator":"شاخص کامودیتی‌ها","entity":"جهان"},{"indicator":"قیمت طلای ۱۸ عیار","entity":"ایران"}],"/markets/money-flow":[{"indicator":"ارزش معاملات","entity":"اخزا"},{"indicator":"ارزش معاملات","entity":"سهام"},{"indicator":"ارزش معاملات","entity":"صندوق‌های طلا"},{"indicator":"خالص جریان پول","entity":"اخزا"},{"indicator":"خالص جریان پول","entity":"سهام"},{"indicator":"خالص جریان پول","entity":"صندوق‌های طلا"},{"indicator":"میانگین نرخ اخزا","entity":"اخزا"}],"/markets/equities":[{"indicator":"ارزش معاملات انرژی","entity":"نماد نمونه"},{"indicator":"ارزش معاملات کالا","entity":"نماد نمونه"},{"indicator":"انس جهانی مس","entity":"جهان"},{"indicator":"انس جهانی نقره","entity":"جهان"},{"indicator":"شاخص کامودیتی‌ها","entity":"جهان"},{"indicator":"شاخص کل بورس","entity":"کل بازار"},{"indicator":"قیمت پایانی","entity":"نماد نمونه"},{"indicator":"نفت برنت","entity":"جهان"}],"/markets/housing":[{"indicator":"میانگین قیمت هر مترمربع","entity":"تهران"}],"/markets/scenarios":[]}}]}],["$","div",null,{"className":"workspace","children":[["$","$L5",null,{}],["$","main",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],"$L8","$L9"]}]}]],[]]}]}]]}]]}]}]]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":"$L16","p":"$@17","v":null,"s":"$b"}},"a":"$@18","u":"$@19","b":"zI_DQVMXFWGX0mjWqbYb_"}
+1a:"/market-outlook/_next/static/chunks/42ksztcv3ws5m.js"
+1b:"StaticMarketView"
+1c:I[7381,["$3","$1a"],"$1b"]
+1d:I[97367,["$3"],"OutletBoundary"]
+1f:"ViewportBoundary"
+20:I[97367,["$3"],"$1f"]
+21:"MetadataBoundary"
+22:I[97367,["$3"],"$21"]
+23:I[27201,["$3"],"IconMark"]
+8:["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}]
+9:["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]
+d:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}]
+11:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}]
+14:["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"stack","children":[["$","div",null,{"className":"section-title","children":[["$","h1",null,{"children":"سناریوها"}],["$","span",null,{"className":"badge pending","children":"حاوی دادهٔ نمونهٔ ساختگی"}]]}],false,["$","section",null,{"className":"panel","children":["$","p",null,{"children":"هنوز سناریویی تعریف نشده است."}]}]]}],"children":["$","$L1c",null,{"market":"scenarios","title":"سناریوها","allRows":[],"tickers":[]}]}],[["$","script","script-0",{"src":"/market-outlook/_next/static/chunks/42ksztcv3ws5m.js","async":true}]],["$","$L1d",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]]}]
+16:["$","$1","h",{"children":[null,["$","$L20",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L22",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$2",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"چشم‌انداز بازارها"}],["$","meta","1",{"name":"description","content":"داشبورد فارسی پایش بین‌بازاری"}],["$","link","2",{"rel":"icon","href":"/market-outlook/icon.svg?icon.44hyc2151dbf4.svg","sizes":"any","type":"image/svg+xml"}],["$","$L23","3",{}]]}]}],null]}],null]}]
+1e:null
+19:true
+b:300
+b:C
+18:0
+12:"$undefined"
+e:"$undefined"
+17:"$undefined"
+15:"$undefined"
+a:"$undefined"
