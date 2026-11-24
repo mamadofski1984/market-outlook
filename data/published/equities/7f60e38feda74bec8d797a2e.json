@@ -1,0 +1,62 @@
+[
+  {
+    "observation_id": "101bad4e18a4cb28e904903634f404ff5039d3c2ae9af91af4d1fea445f328df",
+    "market": "equities",
+    "indicator": "قیمت پایانی",
+    "entity": "نماد نمونه",
+    "value": 8400,
+    "unit": "ریال",
+    "date": "1405/02/01",
+    "frequency": "monthly",
+    "source_name": "دادهٔ ساختگی برای دمو",
+    "source_url": "",
+    "publish_date": "1405/02/01",
+    "status": "قطعی",
+    "notes": "نمونهٔ ساختگی"
+  },
+  {
+    "observation_id": "47054337136462efaf80a8432c0590f06ed3e3878e233d2b4a354c365ee308c6",
+    "market": "equities",
+    "indicator": "قیمت پایانی",
+    "entity": "نماد نمونه",
+    "value": 8720,
+    "unit": "ریال",
+    "date": "1405/03/01",
+    "frequency": "monthly",
+    "source_name": "دادهٔ ساختگی برای دمو",
+    "source_url": "",
+    "publish_date": "1405/03/01",
+    "status": "قطعی",
+    "notes": "نمونهٔ ساختگی"
+  },
+  {
+    "observation_id": "ca5cb95b9a23d5e13c5b03b1540262631c9a23eae421eacc51b65dbb29e5c6cf",
+    "market": "equities",
+    "indicator": "قیمت پایانی",
+    "entity": "نماد نمونه",
+    "value": 8530,
+    "unit": "ریال",
+    "date": "1405/04/01",
+    "frequency": "monthly",
+    "source_name": "دادهٔ ساختگی برای دمو",
+    "source_url": "",
+    "publish_date": "1405/04/01",
+    "status": "قطعی",
+    "notes": "نمونهٔ ساختگی"
+  },
+  {
+    "observation_id": "e5f1dfaec75796d6306bd81a24866fe4ebb54a2b5fb98aaff360bab582e41798",
+    "market": "equities",
+    "indicator": "قیمت پایانی",
+    "entity": "نماد نمونه",
+    "value": 9100,
+    "unit": "ریال",
+    "date": "1405/05/01",
+    "frequency": "monthly",
+    "source_name": "دادهٔ ساختگی برای دمو",
+    "source_url": "",
+    "publish_date": "1405/05/01",
+    "status": "قطعی",
+    "notes": "نمونهٔ ساختگی"
+  }
+]

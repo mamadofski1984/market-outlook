@@ -1,0 +1,25 @@
+{
+  "name": "market-outlook",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "import:xlsx": "tsc -p tsconfig.import.json && node .import-build/scripts/import-xlsx.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "jalaali-js": "^1.2.8",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/jalaali-js": "^1.2.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0"
+  }
+}
